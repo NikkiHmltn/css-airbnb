@@ -1,3 +1,50 @@
-h1 {
-  color: salmon;
+h3, .under {
+  color: #525357;
+  text-align: center;
 }
+
+body {
+  background-color: rgb(237, 239, 236);
+}
+.container {
+  text-align: center;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cities {
+  position: relative;
+}
+
+img {
+  height: 200px;
+  width: 195px;
+  padding: 0.5em;
+}
+
+.cityname {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #FFFCFD;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: medium;
+}
+
+.button {
+  border: 1px solid #525357;
+  color: #525357;
+  background-color: #D8DAD9;
+  text-align: center;
+  margin: 2px 6px;
+  padding: 4px 47px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+
